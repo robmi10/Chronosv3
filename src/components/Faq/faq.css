@@ -1,0 +1,17 @@
+.FaqContainer{
+    width: 100%;
+    height: auto;
+    background-color: #f9f9f9;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.FaqConatinerText{
+    margin-top: 0;
+    margin-left: -30%;
+    background-color: transparent;
+    width: 50%;
+    height: auto;
+    color: black;
+}

@@ -1,0 +1,94 @@
+.navitem{
+    height: 80px;
+    margin-right: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    color: #000;
+}
+
+.navimg{
+    height: 200px;
+    width: 180px;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navimg{
+        height: 200px;
+        width: 120px;
+        margin-top: 20px;
+    }
+}
+
+.shopppingdiv{
+    display: none;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .shopppingdiv{
+        margin-top: 30px;
+        color: #000;
+        display: flex;
+    }
+}
+
+.navbarhashlink3{
+    color: #000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    cursor: pointer;
+    width: 90px;
+    margin-right: -10px;
+}
+
+.navbarhashlink{
+    color: #000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    cursor: pointer;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+    width: 100px; 
+}
+
+.navbarhashlinknew{
+    color: #000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+    width: 50px;
+}
+
+.navbarhashlink2{
+    color: #000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+    width: 100px;
+}
+
+/* .active {
+    border-bottom: 3px solid blue ;
+  } */
+
+/* .navbarhashlinknew:active {
+    border-bottom: 3px solid blue ;
+}
+
+.navbarhashlink2:active {
+    border-bottom: 3px solid blue ;
+} */
