@@ -32,7 +32,6 @@ export const Navbar3 = ({toggle}) => {
     }
 
     useEffect(() => {
-      console.log("updated now toogle_navbar -->", toogle_navbar)
     }, [toogle_navbar, delete_cart])
     
 
